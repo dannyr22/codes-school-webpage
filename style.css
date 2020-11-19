@@ -126,7 +126,7 @@ main {
       flex-direction: column;
       min-width: 100px;
       text-align: center;
-      max-width: 300px;
+      max-width: 500px;
       align-content: center;
       font-size: 1rem;
   }
@@ -185,7 +185,7 @@ main {
 
  .sell {
      padding-top: 2rem;
-     padding-bottom: 3rem;
+     padding-bottom: 1.5rem;
      display: flex;
      flex-direction: column;
      text-align: center;
@@ -211,6 +211,7 @@ main {
      flex-direction: column;
      align-items: center;
      width: 100%;
+     text-align: center;
 
  }
  .testimonials {
@@ -230,6 +231,17 @@ main {
      font-style: oblique;
      font-size: 1.2rem;
  }
+ .copyright {
+     font-size: 0.8rem;
+     padding-top: 1rem;
+ }
+ i {
+    color: lightblue;
+    font-size: 1.2rem;
+}
+.icon-container {
+    display: none;
+}
 @media only screen and (max-width:400px) {
     .about {
         font-size: 0.8rem;
@@ -237,6 +249,9 @@ main {
     }
     .logo {
         width: 100%
+    }
+    .end {
+        padding-bottom: 6rem;
     }
 
 }
@@ -273,13 +288,4 @@ main {
     }
   }
 
-
-
-i {
-    color: lightblue;
-    font-size: 1.2rem;
-}
-.icon-container {
-    display: none;
-}
 
