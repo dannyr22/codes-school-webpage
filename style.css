@@ -147,11 +147,11 @@ main {
       height: auto;
       border-radius: 10%;
   }
-  .profile-pic {
+  .profile-pic-class {
     transition: transform 1s ease;
   }
 
-  .profile-pic:hover {
+  .profile-pic-class:hover {
     transform: scale(1.2);
   }
   /* end and contact us section*/
